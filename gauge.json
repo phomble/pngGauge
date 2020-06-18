@@ -1,0 +1,85 @@
+{
+	"name": "Gauge",
+	"description": "Gauge SDK Widget",
+	"eula": "",
+	"vendor": "SAP",
+	"license": "",
+	"id": "com.sap.sample.gauge",
+	"version": "1.0.0",
+	"icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAb1BMVEX///+ZmZl4dXdBPj9hYGGOjpE6ODo8OjwvLC0lISIpJSaMiooyLzH/cjMxLi9GREb/ZSk2MzV9fX1MSks4NjcrJyn/WR9ycnJRT1AtKiv/TRVdXF1ra2v7VCfJyMk+PD6tra+rqqtUUlU0MTNqaGpjxDg2AAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAKhJREFUGNM9z9EagiAMBeDpEGkWNAGhqFTq/Z8xwK/+q7PtZgeg6npEMcBPJ0d1Kmg6ZnFGRZcLESnR7tpoouuVSCPPZYHWee+XxTsrvQeYQrwV97tL5uZigMeoqucTUSnWEVBX4fWaW2BYz1W3bXsLDPldcD8MoYZ3glmMjNbGLJk5igDgnLTGHazdAPo1Gdms2bZXhRmbMuNR5rNWJuX075sMYg57jV94IQ2Xqt1atQAAAABJRU5ErkJggg==",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-gauge",
+			"url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/gauge/webcomponent.js",
+			"properties": [
+				"look",
+				"val"
+			],
+			"eventEffects": {
+				"onTurn": [
+					"val"
+				]
+			}
+		},
+		{
+			"kind": "styling",
+			"tag": "com-sap-sample-gauge-aps",
+			"url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/gauge/aps_webcomponent.js",
+			"properties": [
+				"look",
+				"val"
+			],
+			"eventEffects": {
+				"submit": [
+					"look",
+					"val"
+				]
+			}
+		}
+	],
+	"properties": {
+		"look": {
+			"type": "string",
+			"description": "The look of the gauge (knob or meter)",
+			"default": "vu"
+		},
+		"val": {
+			"type": "number",
+			"description": "Value of gauge",
+			"default": 0
+		},
+		"width": {
+			"type": "number",
+			"default": 200
+		},
+		"height": {
+			"type": "number",
+			"default": 100
+		}
+	},
+	"methods": {
+		"getValue": {
+			"returnType": "number",
+			"description": "returns the value",
+			"parameters": [],
+			"body": "return this.val;"
+		},
+		"setValue": {
+			"description": "sets the value",
+			"parameters": [
+				{
+					"name": "v",
+					"type": "number",
+					"description": "The new val"
+				}
+			],
+			"body": "this.val = v;"
+		}
+	},
+	"events": {
+		"onTurn": {
+			"description": "Happens when the gauge is turned"
+		}
+	}
+}
