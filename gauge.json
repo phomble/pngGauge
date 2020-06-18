@@ -1,6 +1,7 @@
 {
 	"name": "PNGGauge",
 	"description": "PNGGauge Widget",
+	"newInstancePrefix": "PNGGauge",
 	"eula": "",
 	"vendor": "I521939",
 	"license": "",
@@ -13,11 +14,8 @@
 			"tag": "com-sap-sample-gauge",
 			"url": "https://phomble.github.io/pngGauge/webcomponent.js",
 			"integrity": "",
-			"ignoreIntegrity": true,
-			"properties": [
-				"look",
-				"val"
-			]
+			"ignoreIntegrity": true
+			
 			
 		},
 		{
@@ -25,11 +23,8 @@
 			"tag": "com-sap-sample-gauge-aps",
 			"url": "https://phomble.github.io/pngGauge/aps_webcomponent.js",
 			"integrity": "",
-			"ignoreIntegrity": true,
-			"properties": [
-				"look",
-				"val"
-			]
+			"ignoreIntegrity": true
+			
 		}
 	],
 	"properties": {
