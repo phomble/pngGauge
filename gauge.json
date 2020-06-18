@@ -15,12 +15,8 @@
 			"properties": [
 				"look",
 				"val"
-			],
-			"eventEffects": {
-				"onTurn": [
-					"val"
-				]
-			}
+			]
+			
 		},
 		{
 			"kind": "styling",
@@ -29,13 +25,7 @@
 			"properties": [
 				"look",
 				"val"
-			],
-			"eventEffects": {
-				"submit": [
-					"look",
-					"val"
-				]
-			}
+			]
 		}
 	],
 	"properties": {
