@@ -12,6 +12,8 @@
 			"kind": "main",
 			"tag": "com-sap-sample-gauge",
 			"url": "https://phomble.github.io/pngGauge/webcomponent.js",
+			"integrity": "",
+			"ignoreIntegrity": true,
 			"properties": [
 				"look",
 				"val"
@@ -22,6 +24,8 @@
 			"kind": "styling",
 			"tag": "com-sap-sample-gauge-aps",
 			"url": "https://phomble.github.io/pngGauge/aps_webcomponent.js",
+			"integrity": "",
+			"ignoreIntegrity": true,
 			"properties": [
 				"look",
 				"val"
