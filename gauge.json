@@ -54,6 +54,17 @@
 			"parameters": [],
 			"body": "return this.val;"
 		},
+		"setStyle": {
+			"description": "sets the style",
+			"parameters": [
+				{
+					"name": "look",
+					"type": "string",
+					"description": "The new look vu or knob"
+				}
+			],
+			"body": "this.val = v;"
+		},
 		"setValue": {
 			"description": "sets the value",
 			"parameters": [
