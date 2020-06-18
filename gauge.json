@@ -63,7 +63,7 @@
 					"description": "The new look vu or knob"
 				}
 			],
-			"body": "this.val = v;"
+			"body": "this.look = look;"
 		},
 		"setValue": {
 			"description": "sets the value",
