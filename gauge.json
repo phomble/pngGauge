@@ -34,12 +34,12 @@
 			"default": "vu"
 		},
 		"val": {
-			"type": "number",
+			"type": "integer",
 			"description": "Value of gauge",
 			"default": 0
 		},
 		"width": {
-			"type": "number",
+			"type": "integer",
 			"default": 200
 		},
 		"height": {
@@ -49,7 +49,7 @@
 	},
 	"methods": {
 		"getValue": {
-			"returnType": "number",
+			"returnType": "integer",
 			"description": "returns the value",
 			"parameters": [],
 			"body": "return this.val;"
@@ -59,7 +59,7 @@
 			"parameters": [
 				{
 					"name": "v",
-					"type": "number",
+					"type": "integer",
 					"description": "The new val"
 				}
 			],
