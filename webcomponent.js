@@ -3,13 +3,13 @@ let tmpl = document.createElement('template');
 tmpl.innerHTML = `
   <style>
   :host(.vu_fixed) {
-	background-image: url(https://github.wdf.sap.corp/pages/D037083/AppDesign_CustomWidgets/gauge/css/vu_fixed.png);
+	background-image: url(https://phomble.github.io/pngGauge/css/vu_fixed.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
 .vu_turning {
-	background-image: url(https://github.wdf.sap.corp/pages/D037083/AppDesign_CustomWidgets/gauge/css/vu_turning.png);
+	background-image: url(https://phomble.github.io/pngGauge/css/vu_turning.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
@@ -20,13 +20,13 @@ tmpl.innerHTML = `
 }
 
 :host(.knob_fixed) {
-	background-image: url(https://github.wdf.sap.corp/pages/D037083/AppDesign_CustomWidgets/gauge/css/knob_fixed.png);
+	background-image: url(https://phomble.github.io/pngGauge/css/knob_fixed.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
 
 .knob_turning {
-	background-image: url(https://github.wdf.sap.corp/pages/D037083/AppDesign_CustomWidgets/gauge/css/knob_turning.png);
+	background-image: url(https://phomble.github.io/pngGauge/css/knob_turning.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
